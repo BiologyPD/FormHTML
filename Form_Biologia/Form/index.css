@@ -1,39 +1,26 @@
-body {
+body{
     background-color:rgb(167, 207, 230) ;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
 }
 
-#adiv {
+#adiv{
     display: flex;
     color: rgb(36, 49, 94);
     background-color: rgb(247, 233, 160);
     opacity: 0.8s;
     padding: 1% 2%;
     margin: 5%;
-    align-items: center;
-    width: clamp(50px, 90em, 70vw);
-    flex-direction: row;
-    justify-content: center;
 }
 
-.fieldInfo {
-    width: clamp(20px, 20rem, 30vw);
-}
-
-img {
+img{
     border: solid 2px rgb(11, 19, 43);
     margin: 5% 5%;
-    width: 30vw;
+    width: 100%;
     height: auto;
 }
 
-#titulo {
+#titulo{
     color: rgb(36, 49, 94);
     text-shadow: 2px 2px 1px rgb(89, 104, 154);
     font-family: Bebas Neue, sans-serif;
@@ -41,7 +28,7 @@ img {
     text-indent: 1em;
 }
 
-#buttons {
+#buttons{
     margin: 1% 5%;
 }
 
@@ -51,12 +38,9 @@ img {
     opacity: 0.8s;
     width: auto;
     display: block;
-    font-size: 75%;
+    font-size:75%;
     padding: 10px 20px;
     text-align: center;
-    width: 40em;
-    max-width: 80vw;
-    min-width: 20em;
 }
 
 fieldset{
@@ -64,7 +48,7 @@ fieldset{
 }
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
 
-/* @media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) {
     
     #adiv{
         display: inline-block;
@@ -75,4 +59,4 @@ fieldset{
         height: auto;
         margin: 15px auto;
     }
-} */
+}
