@@ -38,7 +38,7 @@ img{
     opacity: 0.8s;
     width: auto;
     display: block;
-    font-size:75%;
+    font-size:15px;
     padding: 10px 20px;
     text-align: center;
 }
@@ -59,4 +59,5 @@ fieldset{
         height: auto;
         margin: 15px auto;
     }
+
 }
