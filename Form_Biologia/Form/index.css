@@ -29,7 +29,7 @@ img{
     
 }
 
-#titulo{
+.titulo{
     color: rgb(36, 49, 94);
     text-shadow: 2px 2px 1px rgb(89, 104, 154);
     font-family: Bebas Neue, sans-serif;
@@ -41,7 +41,7 @@ img{
     margin: 1% 5%;
 }
 
-#debaixo{
+.debaixo{
     color: rgb(36, 49, 94);
     background-color: rgb(241, 112, 110);
     opacity: 0.8s;
@@ -82,4 +82,24 @@ fieldset{
     #debaixo {
         font-size: 0.9em;
     }
+}
+
+#formaAparencia{
+
+}
+
+#habitatComportamento{
+
+}
+
+#lutaDefesa{
+
+}
+
+#reproducao{
+
+}
+
+#relParasitaria{
+
 }
