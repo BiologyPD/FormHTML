@@ -1,6 +1,6 @@
 body{
     
-    background-color:rgb(167, 207, 230) ;
+    background-color:rgb(240, 214, 193) ;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -21,7 +21,7 @@ ul {
   }
 
   a:hover{
-    background-color: rgb(241, 112, 110);
+    background-color: rgb(249, 125, 116);
     color: white;
   }
 
@@ -40,7 +40,7 @@ ul {
 #divSuperior{
     display: flex;
     color: rgb(36, 49, 94);
-    background-color: rgb(247, 233, 160);
+    background-color: rgba(246, 168, 147, 0.7);
     opacity: 0.8s;
     padding: 1% 2%;
     margin: 5% 5%;
@@ -70,7 +70,7 @@ ul {
 
 .titulo{
     color: rgb(36, 49, 94);
-    text-shadow: 2px 2px 1px rgb(89, 104, 154);
+    text-shadow: 2px 2px 1px rgb(255, 100, 86);
     font-family: Bebas Neue, sans-serif;
     font-size: 2.5em;
     text-indent: 1em;
@@ -82,7 +82,7 @@ ul {
 
 .debaixo{
     color: rgb(36, 49, 94);
-    background-color: rgb(241, 112, 110);
+    background-color: rgba(249, 155, 131);
     opacity: 0.8s;
     width: auto;
     display: block;
@@ -93,14 +93,14 @@ ul {
 }
 
 fieldset{
-    border-color: rgb(241, 112, 110)
+    border-color: rgb(46, 59, 103)
 }
 
 .bottom {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(89, 104, 154);
+    background-color: rgb(46, 59, 103);
     color: white;
     text-align: center;
   }
@@ -132,7 +132,7 @@ fieldset{
         margin: 15px auto;
     }
 
-    #debaixo {
+    .debaixo {
         font-size: 0.9em;
     }
 }
