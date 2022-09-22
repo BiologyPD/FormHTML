@@ -1,6 +1,6 @@
 body{
     
-    background-color:rgb(240, 214, 193) ;
+    background-color:rgb(255, 230, 210) ;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -40,7 +40,7 @@ ul {
 #divSuperior{
     display: flex;
     color: rgb(36, 49, 94);
-    background-color: rgba(246, 168, 147, 0.7);
+    background-color: rgba(247, 161, 137, 0.7);
     opacity: 0.8s;
     padding: 1% 2%;
     margin: 5% 5%;
