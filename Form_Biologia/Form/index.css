@@ -4,20 +4,30 @@ body{
     margin: 0;
 }
 
-#adiv{
+#divSuperior{
     display: flex;
     color: rgb(36, 49, 94);
     background-color: rgb(247, 233, 160);
     opacity: 0.8s;
     padding: 1% 2%;
-    margin: 5%;
+    margin: 5% 5%;
+    height: fit-content;
+    justify-content: space-between ;
+    font-size: 1.5em;
+
+}
+
+#divSuperior fieldset{
+    width: 40%;
+    
 }
 
 img{
     border: solid 2px rgb(11, 19, 43);
     margin: 5% 5%;
-    width: 100%;
-    height: auto;
+    width: 40%;
+    margin-left: auto;
+    
 }
 
 #titulo{
@@ -38,20 +48,30 @@ img{
     opacity: 0.8s;
     width: auto;
     display: block;
-    font-size:15px;
+    font-size:0.9em;
     padding: 10px 20px;
     text-align: center;
+    font-size: 1em;
 }
 
 fieldset{
     border-color: rgb(241, 112, 110)
 }
+
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
 
 @media screen and (max-width: 720px) {
     
-    #adiv{
+    #divSuperior{
         display: inline-block;
+        font-size: 1em;
+    }
+
+    #divSuperior fieldset{
+        font-size: 1em;
+        margin: 0% 8%;
+        justify-content: center;
     }
 
     img{
@@ -60,4 +80,7 @@ fieldset{
         margin: 15px auto;
     }
 
+    #debaixo {
+        font-size: 0.9em;
+    }
 }
