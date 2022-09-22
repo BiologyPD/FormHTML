@@ -3,96 +3,79 @@
 		<meta charset= "utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" href="index.css"/>
+		<link rel="stylesheet" href="style.css"/>
 		<title>Carrapato Estrela</title>
 	</head>
 
     <body>
-		<div>
-			<ul>
-				<li><a href="FormArmadeira.html">Armadeira</a></li>
-				<li><a href="FormCinachyrella.html">Esponja</a></li>
-				<li><a href="FormCoelho.html">Lesma</a></li>
-				<li><a href="FormLagarto.html">Lagarto</a></li>
-				<li><a href="FormLombriga.html">Lombriga</a></li>
-				<li><a href="FormMedusa.html">Medusa</a></li>
-				<li><a href="FormMorcego.html">Morcego</a></li>
-				<li><a href="FormSanguessuga.html">Sanguessuga</a></li>
-				<li><a href="FormSapoVidro.html">Sapo</a></li>
-				<li><a href="FormSuindara.html">Coruja</a></li>
-				<li><a href="FormTenia.html">Tenia</a></li>
-				<li><a href="Form_Quokka.html">Quokka</a></li>
-			</ul>
-		</div>
+		<nav>
+			<span><a href="FormArmadeira.html">Armadeira</a></span>
+			<span><a href="FormCinachyrella.html">Esponja</a></span>
+			<span><a href="FormCoelho.html">Lesma</a></span>
+			<span><a href="FormLagarto.html">Lagarto</a></span>
+			<span><a href="FormLombriga.html">Lombriga</a></span>
+			<span><a href="FormMedusa.html">Medusa</a></span>
+			<span><a href="FormMorcego.html">Morcego</a></span>
+			<span><a href="FormSanguessuga.html">Sanguessuga</a></span>
+			<span><a href="FormSapoVidro.html">Sapo</a></span>
+			<span><a href="FormSuindara.html">Coruja</a></span>
+			<span><a href="FormTenia.html">Tenia</a></span>
+			<span><a href="Form_Quokka.html">Quokka</a></span>
+		</nav>
 
-        <div id="divSuperior">
-			<fieldset width="10%">
-				<legend><span class="titulo">Classificação</span></legend>
-				<h3>Carrapato Estrela</b></h3>
-				<i>Amblyomma cajennense</i>
-				<p><b>Reino: </b>Animalia</p>
-				<p><b>Filo:</b> Arthropoda</p>
-				<p><b>Classe:</b> Arachnida</p>
-				<p><b>Ordem:</b> Ixodida</p>
-				<p><b>Família:</b> Ixodidae</p>
-				<p><b>Gênero:</b> Amblyomma</p>
-			</fieldset>
+		<fieldset width="10%" class="informacoes">
+			<legend><span class="titulo">Classificação</span></legend>
+			<h3>Carrapato Estrela</b></h3>
+			<i>Amblyomma cajennense</i>
+			<p><b>Reino: </b>Animalia</p>
+			<p><b>Filo:</b> Arthropoda</p>
+			<p><b>Classe:</b> Arachnida</p>
+			<p><b>Ordem:</b> Ixodida</p>
+			<p><b>Família:</b> Ixodidae</p>
+			<p><b>Gênero:</b> Amblyomma</p>
+		</fieldset>
 
-			<img class="imgSuperior" src="carrapato.jpg">
-
-		</div>
+			<!-- <img class="imgSuperior" src="carrapato.jpg"> -->
 		
 
-	<div id="buttons">
-		<div class="debaixo" id="formaAparencia">
-			<fieldset>
-				<legend><span class="titulo">🐾 Forma e Aparência</span></legend>
-				<p>
-					Carrapatos são artrópodes parasitários, assim possuem boca e ânus. Eles são ovais e mais amarronzados, medindo entre 10 e 20 centímetros enquanto adultos. Eles possuem adaptações para o clima terrestre como patas. Sua boca é dividida em 2 membros, os palpos e o hipostômio; quando o carrapato vai se alimentar, os palpos se abrem para o hipostômio adentrar a pele do hospedeiro, sugando seu sangue.
+	<div class="text">
+		<fieldset class="textInfo" id="formaAparencia">
+			<legend>🐾 Forma e Aparência</legend>
+			<p>
+				Carrapatos são artrópodes parasitários, assim possuem boca e ânus. Eles são ovais e mais amarronzados, medindo entre 10 e 20 centímetros enquanto adultos. Eles possuem adaptações para o clima terrestre como patas. Sua boca é dividida em 2 membros, os palpos e o hipostômio; quando o carrapato vai se alimentar, os palpos se abrem para o hipostômio adentrar a pele do hospedeiro, sugando seu sangue.
+			</p>
 
-				</p>
-				<p>
-					São eles que inspiraram para os personagens do desenho animado brasileiro: "Carrapatos e Catapultas"
-				</p>
+			<figure>
+				<img class="imgPersonagem" src="carrapatosCatapultas.jpg"><br>
+				<caption>São eles que inspiraram para os personagens do desenho animado brasileiro: "Carrapatos e Catapultas"</caption>
+			</figure>
 
-				<img class="imgPersonagem" src="carrapatosCatapultas.jpg">
-			</fieldset>
-		</div>
+		</fieldset>
 
-		<br>
+		<fieldset class="textInfo" id="habitatComportamento">
+			<legend>🍃 Habitat e Comportamento</legend>
+			<p>
+				O carrapato-estrela é um animal de clima equatorial presente somente no continente americano, sendo muito prevalente em países como o Brasil, México, EUA e etc. Geralmente ele se encontra nas pontas de gramíneas e arbustos para quando aparecer um possível hospedeiro ele levantar suas patas dianteiras e se agarrar nele.
+			</p>
+			<p> 
+				Carrapatos são parasitas hematófagos, se alimentando do sangue de seu hospedeiro.
+			</p>
+			<p>
+				Seu sistema circulatório é aberto, com os seus fluídos corporais transitando até fora de seus vasos sanguíneos como pelo tecido. Seu sistema respiratório é traqueal, respirando através de filotraquéias. Seu sistema nervoso é ganglionar.
+			</p>
+			<p>
+				Por ser um artrópode, ele possui um exoesqueleto de quitina que evita a perda de água e outros fluídos corporais, porém ele só se alimenta de sangue.
+			</p>
+		</fieldset>
 
-		<div class="debaixo" id="habitatComportamento">
-			<fieldset>
-				<legend><span class="titulo">🍃 Habitat e Comportamento</span></legend>
-				<p>
-					O carrapato-estrela é um animal de clima equatorial presente somente no continente americano, sendo muito prevalente em países como o Brasil, México, EUA e etc. Geralmente ele se encontra nas pontas de gramíneas e arbustos para quando aparecer um possível hospedeiro ele levantar suas patas dianteiras e se agarrar nele.
-				</p>
-				<p> 
-					Carrapatos são parasitas hematófagos, se alimentando do sangue de seu hospedeiro.
-				</p>
-				<p>
-					Seu sistema circulatório é aberto, com os seus fluídos corporais transitando até fora de seus vasos sanguíneos como pelo tecido. Seu sistema respiratório é traqueal, respirando através de filotraquéias. Seu sistema nervoso é ganglionar.
-				</p>
-				<p>
-					Por ser um artrópode, ele possui um exoesqueleto de quitina que evita a perda de água e outros fluídos corporais, porém ele só se alimenta de sangue.
-				</p>
-			</fieldset>
-		</div>
-
-		<br>
-
-		<div class="debaixo" id="lutaDefesa">
-			<fieldset>
-				<legend><span class="titulo">⚔️ Estratégias de Luta e Defesa</span></legend>
+		<fieldset class="textInfo" id="lutaDefesa">
+			<legend>⚔️ Estratégias de Luta e Defesa</legend>
 			<p>
 				O carrapato possui diversas farpas em seu tubo de alimentação além de secretar uma substância semelhante ao cimento, as mantendo firmemente presas ao hospedeiro durante sua alimentação. Outra estratégia de defesa são as substâncias analgésicas na saliva do animal, fazendo com que a presa não perceba que foi picada.
 			</p>
-			</fieldset>
-		</div>
+		</fieldset>
 
-		<br>
-
-		<div class="debaixo" id="reproducao">
+		<div class="textInfo" id="reproducao">
 			<fieldset>
 				<legend><span class="titulo">🤨 Reprodução</span></legend>
 			<p>
@@ -104,9 +87,7 @@
 			</fieldset>
 		</div>
 
-		<br>
-
-		<div class="debaixo" id="relParasitaria">
+		<div class="textInfo" id="relParasitaria">
 			<fieldset>
 				<legend><span class="titulo">😷 Relações Parasitárias</span></legend>
 			<p>
@@ -120,12 +101,9 @@
             </p>
 			</fieldset>
 		</div>
-
-		<br>
 	</div>
 
-	<div class="bottom">
-		Pesquisa feita por: Luanna Sachinelli Paggiaro
-	</div>
+	
+		<footer>Pesquisa feita por: Luanna Sachinelli Paggiaro</footer>
     </body>
 </html>

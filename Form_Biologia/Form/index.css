@@ -7,37 +7,37 @@ body{
 
 
 ul {
-    background-color:rgb(46, 59, 103) ;
+    background-color:rgb(46, 59, 103);
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 100%;
     overflow: hidden;
-  }
+}
 
-  a{
+a {
     display: block;
     padding: 1%;
-  }
+}
 
-  a:hover{
+a:hover{
     background-color: rgb(249, 125, 116);
     color: white;
-  }
+}
 
-  li{
+li {
     float:left ;
-  }
+}
 
-  li a{
+li a {
     display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  }
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-#divSuperior{
+#divSuperior {
     display: flex;
     color: rgb(36, 49, 94);
     background-color: rgba(247, 161, 137, 0.7);
@@ -47,28 +47,25 @@ ul {
     height: fit-content;
     justify-content: space-between ;
     font-size: 1.25em;
-
 }
 
-#divSuperior fieldset{
+#divSuperior fieldset {
     width: 40%;
 }
 
-.imgSuperior{
+.imgSuperior {
     border: solid 2px rgb(11, 19, 43);
     margin: 5% 5%;
     width: 40%;
     margin-left: auto;
-    
 }
 
-.imgPersonagem{
-    
+.imgPersonagem {
     width: 40%;
     margin-left: auto;
 }
 
-.titulo{
+.titulo {
     color: rgb(36, 49, 94);
     text-shadow: 2px 2px 1px rgb(255, 100, 86);
     font-family: Bebas Neue, sans-serif;
@@ -76,11 +73,11 @@ ul {
     text-indent: 1em;
 }
 
-#buttons{
+#buttons {
     margin: 1% 5%;
 }
 
-.debaixo{
+.debaixo{ 
     color: rgb(36, 49, 94);
     background-color: rgba(249, 155, 131);
     opacity: 0.8s;
@@ -103,7 +100,7 @@ fieldset{
     background-color: rgb(46, 59, 103);
     color: white;
     text-align: center;
-  }
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
 
@@ -135,24 +132,4 @@ fieldset{
     .debaixo {
         font-size: 0.9em;
     }
-}
-
-#formaAparencia{
-
-}
-
-#habitatComportamento{
-
-}
-
-#lutaDefesa{
-
-}
-
-#reproducao{
-
-}
-
-#relParasitaria{
-
 }
